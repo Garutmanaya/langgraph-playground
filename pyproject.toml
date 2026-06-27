@@ -1,0 +1,25 @@
+[project]
+name = "langgraph-playground-v1"
+version = "0.1.0"
+description = "Incremental LangGraph and LangSmith learning playground"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph",
+    "langchain",
+    "langsmith",
+    "python-dotenv",
+    "ipython",
+    "jupyter",
+    "langchain-openai>=1.3.3",
+    "reportlab>=5.0.0",
+    "langchain-community>=0.4.2",
+    "pypdf>=6.14.2",
+    "langchain-chroma>=1.1.0",
+    "mcp>=1.28.1",
+    "fastapi>=0.138.1",
+    "a2a>=0.44",
+    "a2a-sdk>=1.1.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
