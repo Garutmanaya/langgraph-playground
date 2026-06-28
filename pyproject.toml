@@ -1,5 +1,5 @@
 [project]
-name = "langgraph-playground-v1"
+name = "langgraph-playground"
 version = "0.1.0"
 description = "Incremental LangGraph and LangSmith learning playground"
 requires-python = ">=3.11"
